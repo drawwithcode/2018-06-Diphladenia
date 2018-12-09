@@ -5,7 +5,7 @@ var mySong;
 
 function preload() {
 myData = loadJSON('assets/italianpresidents.json');
-mybackground = loadImage('/assets/Quirinale.jpg')
+mybackground = loadImage('./assets/Quirinale.jpg');
 mySong = loadSound('./assets/innoitaliano.mp3');
 
 }
